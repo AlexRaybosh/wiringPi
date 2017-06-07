@@ -46,8 +46,8 @@ else ifeq "$(ARCH)" "Linux-armv7l"
 endif
 
 
-VERSION=$(shell cat ./VERSION)
-WIRINGPI_SONAME_SUFFIX=$(shell awk -F'.' '{print $$1}'  ./VERSION)
+VERSION=$(shell cat ../VERSION)
+WIRINGPI_SONAME_SUFFIX=$(shell awk -F'.' '{print $$1}'  ../VERSION)
 
 CC:=$(TOOLS)gcc
 STRIP:=$(TOOLS)strip
