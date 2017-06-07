@@ -143,7 +143,7 @@ $(STATIC):	$(OBJS)
 	$(TOOLS)ranlib $(STATIC)
 
 $(DYNAMIC):	$(OBJS)
-	$(CC) -shared -Wl,-soname,libwiringPi.so$(WIRINGPI_SONAME_SUFFIX) -o $@ $^
+	$(CC) -shared -Wl,-soname,libwiringPi.so.$(WIRINGPI_SONAME_SUFFIX) -o $@ $^
 
 .PHONY:	clean install all
 
