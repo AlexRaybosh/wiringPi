@@ -1,0 +1,3 @@
+buildTools.path=/opt/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian
+eclipse.preferences.version=1
+toolchain.path.2029746065=/opt/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian
